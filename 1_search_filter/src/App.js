@@ -6,9 +6,9 @@ import Result from "./components/Result";
 function App() {
   return (
       <>
-      <Header>
-          <SearchBar/>
-      </Header>
+          <Header>
+              <SearchBar/>
+          </Header>
           <Result/>
           <Footer/>
           </>
