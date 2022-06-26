@@ -11,7 +11,3 @@ export const Text = styled.text`
   text-align: center;
   color: black;
 `;
-
-export const Wrapper = styled.section`
-  padding: 5em;
-`;
