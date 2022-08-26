@@ -18,7 +18,7 @@ function Body() {
     let i = 0;
     while (i < number) {
       fibonacci.push(fibonacci[i] + fibonacci[i + 1]);
-      if (fibonacci[i] >= 4000000) {
+      if (fibonacci[i] <= 4000000) {
         return fibonacci[i];
       }
     i++;
@@ -32,7 +32,7 @@ function Body() {
 
     while (i < number) {
       fibonacci.push(fibonacci[i] + fibonacci[i + 1]);
-      if (fibonacci[i] >= 4000000) {
+      if (fibonacci[i] >= 3000000) {
         return fibonacci.indexOf(fibonacci[i]);
       }
       i++;
